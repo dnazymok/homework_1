@@ -12,6 +12,7 @@
         {% for href, title in [
           ['/linux', 'Linux'],
           ['/git', 'Git'],
+          ['/pycharm', 'PyCharm']
         ] %}
           <li{% if this.is_child_of(href) %} class="active"{% endif
             %}><a href="{{ href|url }}">{{ title }}</a></li>
